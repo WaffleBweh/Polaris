@@ -1,0 +1,45 @@
+body{
+	background-color : #222C50;
+	background-image: url("../img/background.jpg");
+	text-align: center;
+}
+
+h1{
+	color : #FFFFFF;
+	font-family : 'Oswald', sans-serif;
+	text-shadow: 5px 5px #07337a;
+	font-size : 55pt;
+	-webkit-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
+}
+
+a {
+	color : #FFFFFF;
+	font-family : 'Oswald', sans-serif;
+	text-shadow: 3px 3px #202020;
+	font-size : 15pt;
+	text-decoration: underline;
+	-webkit-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
+}
+
+a:hover {
+	font-size : 15pt;
+	color : #4082ed;
+}
+
+/* Center the canvas horizontally and vertically */
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px white solid;
+	/*background-color : rgba(2, 19, 45, 0.85);*/
+}
